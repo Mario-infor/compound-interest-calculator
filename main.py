@@ -1,12 +1,12 @@
 if __name__ == '__main__':
-    annual_interest = 15  # annual interest in %
+    annual_interest = 11.5  # annual interest in %
     annual_business_days = 317  # amount of days you will get interest in a year
 
     # daily interest divided by 100 soo it's no longer a percentage
     daily_interest = annual_interest / annual_business_days / 100
 
-    account_money = 0  # amount of money you have in your account at the start
-    monthly_increase = 5000  # amount of money you will add to your account every month
+    account_money = 50000  # amount of money you have in your account at the start
+    monthly_increase = 8000  # amount of money you will add to your account every month
     stop_at = 1500000  # amount of money you want to reach
 
     daily_interest_result = 0
